@@ -8,12 +8,18 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --primary-black-color: #000000;
+    --primary-background-color: #2F303A;
+    --title-background-color: #F5F4FA;
+    --secondary-background-color: #2F303A;
+
 }
 
 
 body {
     color: var(--primary-text-color);
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
     font-family: "Roboto", sans-serif;
 }
 
@@ -32,7 +38,7 @@ body {
 }
 
 .studio {
-    color: #000000;
+    color: var(--primary-black-color);
 }
 
 .site-nav .link {
@@ -68,11 +74,11 @@ body {
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--primary-background-color);
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -83,7 +89,7 @@ body {
 
 
 .hero-button {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
     font-family: inherit;
     font-weight: 700;
@@ -112,7 +118,7 @@ body {
 }
 
 .section-title {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -122,7 +128,7 @@ body {
 }
 
 .section-team  {
-    background-color: #F5F4FA;
+    background-color: var(--title-background-color);
 }
 
 .tm-name {
@@ -141,15 +147,15 @@ body {
 }
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--secondary-background-color);
 }
 
 .studio-footer {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .address {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -180,7 +186,7 @@ body {
 
 .filter .button {
     color: var(--title-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--title-background-color);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -193,7 +199,7 @@ body {
 
 .filter .button:hover,
 .filter .button:focus {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 
